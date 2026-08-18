@@ -3,6 +3,13 @@ import openpyxl
 import gdown
 import os
 import io
+st.set_page_config(
+    menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None
+    }
+)
 
 # Judul Web
 st.title("Aplikasi Pemetaan Data Excel")
